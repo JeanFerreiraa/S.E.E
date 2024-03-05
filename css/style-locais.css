@@ -1,0 +1,141 @@
+/* cards- aba locais */
+main{
+  margin-bottom: 4rem;
+}
+
+.section-form{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+  
+}
+
+
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+    color: #fff;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+    color: #fff;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #228B22;
+    color: #fff;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+input[type=submit]:hover{
+  transition: 0.4s all;
+  background-color: #3CB371; 
+}
+
+.image-form{
+  display: flex;
+  justify-content: center;
+}
+
+.image-form img{
+  width: 500px;
+  height: auto;
+}
+
+
+.section-locais{
+    margin-top: 0.1rem;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .section-locais h3{
+    color: #fff;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .container-locais{
+    background-color: #434343;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 0 4%;
+    box-shadow: 0 0.1rem 0.3rem #000;
+    border-radius: 20px;
+  }
+  
+  .div-maps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .div-maps p {
+    color: #fff;
+    font-size: 15px;
+    
+  }
+  
+  .div-maps iframe{
+    margin: 10px;
+  }
+
+
+@media screen and (max-width:760px){
+
+  .container-locais{
+    max-width: 390px;
+  }
+  
+  .image-form img{
+    width: 100%;
+  }
+  
+  .div-maps{
+    width: 100%;
+  }
+}
